@@ -1,0 +1,128 @@
+*{
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-attachment: fixed;
+  background-image: url("hawai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: #04AA6D;
+}
+
+nav #cta{
+  float: right;
+}
+nav #cta li a:hover{
+  background-color: #04AA6D;
+}
+#locinfo p{
+  padding: 3%;
+  padding-top: 0%;
+  background-color: coral;
+}
+#locinfo h1{
+  text-align: center;
+  padding: 3%;
+  background-color: coral;
+}
+#image img{
+  max-width: 80%;
+  max-height: auto;
+  height: auto;
+  padding: 10%;
+  margin: auto;
+}
+#things_to_know{
+  background-color: tomato;
+}
+#things_to_know h1{
+  padding: 3%;
+}
+#things_to_know h3, #things_to_know p{
+  padding: 2%;
+  padding-top: unset;
+}
+#footer{
+  color: white;
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+  padding-top: 3rem;
+}
+#footer p{
+  margin-top: 2rem;
+}
+.social_icon a{
+  font-size: 2rem;
+  color: white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 2rem;
+}
+.social p{
+  text-align: center;
+  font-weight: bold;
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+  margin-bottom: 1rem;
+}
+#activities #text h3{
+  padding: 3%;
+}
+#activities #text p{
+  padding: 3%;
+  padding-top: unset;
+}
+#activities #text, #activities #img, #restourents #img, #restourents #text{
+  display: inline-block;
+  width: 43.8%;
+  padding: 3%;
+  vertical-align: middle;
+  background-color: #114683;
+}
+#activities #img img{
+  max-width: 100%;
+  max-height: auto;
+  vertical-align: middle;
+  border-radius: 5%;
+}
+#restourents #img img{
+  width: 100%;
+  max-height: auto;
+  vertical-align: middle;
+  border-radius: 5%;
+}
+#restourents #img{
+  object-fit: cover;
+}
+#restourents, #activities{
+  width: auto;
+}
